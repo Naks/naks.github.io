@@ -1,0 +1,293 @@
+/*!
+ * Naks (http://naks.se)
+ */
+
+ /*
+ *
+ * Table of contents:
+ *
+ * Title 1
+ */
+
+
+/*
+ * Import
+ *
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:800);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+/*
+ * Global
+ *
+ * Description
+ */
+
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Open Sans';
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 100%;
+}
+img {
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 600;
+}
+p {
+   font-family: 'Merriweather'; 
+}
+
+/*
+ * Layout
+ *
+ * Description
+ */
+
+.section {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+/*
+ * Not Bootstrap
+ *
+ * Code to overwrite Bootstrap
+ */
+
+/* Links */
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+/* Thumbnail */
+.thumbnail {
+    background-color: initial;
+    border: 1px solid #333;
+    border-radius: initial;
+}
+.thumbnail .caption {
+    color: #fff;
+}
+
+/* Button */
+.btn {
+    font-family: 'Open Sans';
+    border-radius: 0px;
+}
+
+/*
+ * Navigation
+ *
+ */
+
+.nav {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.nav li {
+    display: inline-block;
+    float: none;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: underline;
+}
+
+/*
+ * Cover
+ *
+ */
+
+.cover {
+    height: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    background-image: url("images/in-the-air.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.cover h1 {
+    font-family: "Raleway";
+    margin-top: 0;
+    font-size: 96px;
+    padding-top: 1.5em;
+}
+.cover p {
+    font-size: 22px;
+}
+
+/* Button */
+.btn-contact {
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 0;
+}
+.btn-contact a {
+    color: #fff;
+}
+.btn-contact:hover,
+.btn-contact:focus,
+.btn-contact:active {
+    color: #428bca;
+    text-shadow: none;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: inset 0 0 5px rpba(0,0,0,.125);
+}
+
+/*
+ * About
+ *
+ */
+
+.about {
+    background-color: #eee;
+}
+.about p {
+    font-size: 22px;
+}
+
+/*
+ * Services
+ *
+ */
+
+.services-inner {
+    border-bottom: 1px solid #eee;
+}
+
+.services .fa {
+    text-align: center;
+    width: 100%;
+}
+
+/*
+ * Works
+ *
+ */
+
+.works {
+    background: #222;
+ }
+
+/*
+ * Contact
+ *
+ */
+
+.interested {
+    text-align: center;
+}
+.interested-text {
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+/*
+ * Banner
+ *
+ */
+
+.banner {
+    background-color: #2980B9;
+    color: #fff;
+}
+.banner-inner {
+    text-align: center;
+}
+
+ /*
+ * Footer
+ *
+ */
+
+.footer {
+    padding: 32px 0;
+    background-color: #eee;
+    color: #999;
+}
+.footer p {
+    font-family: 'Open Sans';
+}
+.footer-inner {
+
+}
+.footer-logo h1 {
+    font-family: 'Raleway';
+    color: #333;
+    font-weight: 800;
+}
+.footer-links-title {
+
+}
+.footer-links-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+.footer-copyright {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+.sweden {
+    width: 16px;
+    margin-right: 10px; 
+}
+
+/*
+ * Extra
+ *
+ */
+
+/* Mapbox */
+.mapbox {
+    width: 100%;
+    height: 300px;
+}
+
+/* Google Maps */
+.place-card,
+.login-control,
+.gmnoprint {
+    display: none
+}
+
+/*
+ * Media queries
+ *
+ */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .cover h1 {
+        font-size: 160px;
+    }
+    .mapbox {
+    width: 100%;
+    height: 500px;
+ }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
